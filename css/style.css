@@ -18,6 +18,11 @@ body {
     display: flex;
 }
 
+.row-space-between {
+    justify-content: space-between;
+    margin: 60px 0;
+}
+
 .flex-vertical-centered {
     display: flex;
     align-items: center;
@@ -40,9 +45,17 @@ body {
     width: 60%;
 }
 
+.col-33 {
+ width: calc(100% / 3 - 13px);
+}
+
 .contenuto {
     width: 100%;
     display: flex;
+}
+
+.card {
+    flex-direction: column;
 }
 
 /* Header */
@@ -87,6 +100,47 @@ ul {
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+/* Main */
+
+main img {
+    max-width:100%;
+    max-height:100%;
+}
+
+.titolo-capo {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.prezzo {
+    color: #ff0000;
+    font-weight: bold;
+}
+
+.compare-at-price {
+    text-decoration: line-through;
+}
+
+.sale-number, .sostenibilità {
+    padding: 4px 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.sale-number {
+    background-color: #ff0000;
+}
+
+.sostenibilità {
+    background-color: #008000;
+}
+
+.cuore i {
+    display: inline-block;
+    padding: 20px;
+    background-color: #fff;
 }
 
 
