@@ -139,8 +139,33 @@ main img {
 
 .cuore i {
     display: inline-block;
-    padding: 20px;
+    font-size: 26px;
+    padding: 15px;
     background-color: #fff;
+}
+
+.card {
+    position: relative;
+}
+
+.etichette {
+    position: absolute;
+    bottom: 15%;
+}
+
+.cuore {
+    position: absolute;
+    right: 0;
+    top: 2%
+}
+
+img-2 {
+    position: absolute;
+    left: 20px;
+}
+
+.col .cuore i:hover {
+    color: red;
 }
 
 
