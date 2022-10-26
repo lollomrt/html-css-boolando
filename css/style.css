@@ -174,5 +174,9 @@ main img {
     color: red;
 }
 
+.display-none {
+    display: none;
+}
+
 
 
