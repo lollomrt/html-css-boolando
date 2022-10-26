@@ -159,9 +159,15 @@ main img {
     top: 2%
 }
 
-img-2 {
+.img-2 {
+    width: 100%;
     position: absolute;
-    left: 20px;
+    opacity: 0;
+}
+
+.col:hover .img-2 {
+    width: 100%;
+    opacity: 1;
 }
 
 .col .cuore i:hover {
